@@ -1,0 +1,228 @@
+/*********************todos**********************/
+h1{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*********************cabeçaçho******************/
+header{
+    background-color: gold;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    max-width: 10%;
+    max-height: 10%;
+}
+
+header nav{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+header nav a{
+    text-decoration: none;
+    color: red;
+    text-transform: uppercase;
+    padding: 10px;
+    
+    font-weight: bold;
+}
+
+header nav a:hover{
+    color: #fff;
+    font-size: 20px;
+}
+/***************rodape*******************/
+footer{
+    text-align: center;
+    padding: 30px;
+    background-image: url(imagem/rodapefundo.jpg);
+}
+    footer img{
+        max-width: 10%;
+        max-height: 10%;
+    }
+
+
+    .rslogo{
+        max-width: 25px;
+        max-height: 25px;
+    }
+/******************************************index*****************************/
+.mainindex{
+    background: linear-gradient(red,orange,yellow);
+}
+
+    .sobre{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+
+        .sobre p{
+            padding: 5px;
+        }
+
+    .parcerias{
+        text-align: center;
+    }
+
+
+        .parcerias p{
+            text-align: center;
+            margin-bottom: 20px ;
+        }
+
+    .beneficios{
+        padding-bottom: 20px;
+    }
+
+        .beneficios ul{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            margin-right: 20px;
+            margin-top: 30px;
+        }
+
+            .beneficios ul li{
+                line-height: 1.5;
+            }
+
+            .beneficios ul li:first-child{
+                font-weight: bold;
+            }
+
+        .beneficios div{
+            width: 50%;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: 35%;
+        }
+
+
+
+/*****************produtos*******************/
+
+.mainProdutos article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mainProdutos article ht{
+    font-size: 75px;
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+.mainProdutos article div{
+    text-align: center;
+    margin: 50px;
+}
+.mainProdutos article div img{
+    
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: solid;
+    border-radius: 15px;
+}
+.mainProdutos article div img:hover{
+    border-color: gold;
+    width: 60px;
+    height: 60px;
+}
+
+/*********************contato****************/
+.mainMap{
+    display: flex;
+    margin-top: 20px;
+}
+
+.mainFornecedor{
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.mainFornecedor p{
+    margin: 5px;
+}
+
+.mainFornecedor section {
+    text-align: center;
+}
+
+.mainFornecedor section input{
+    width: 100%;
+}
+.mainFornecedor section p{
+    text-align: left;
+
+}
+
+.dp{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.df{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+
+.mainFornecedor button{
+    width: 75%;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    margin: 20px;
+}
+
+.mainFornecedor article{
+    display: flex;
+}
+
+.mainFornecedor article div{
+    margin: 8px;
+}
+
+.mainFornecedor article div p{
+    margin: 8px;
+}
+
+.mainFornecedor select{
+    margin: 5px;
+}
+
+iframe{
+    margin-right: 5%;
+}
